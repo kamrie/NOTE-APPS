@@ -1,5 +1,5 @@
 function createNote(){
-    window.location.href = '/myPage.html'
+    window.location.href = '/'
     // window.location.assign('/')
 }
 
