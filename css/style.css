@@ -7,6 +7,60 @@
     font-family: 'Trebuchet MS', sans-serif;;
 }
 
+.rrrr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+}
+
+.rrrr h4{
+  margin-bottom: 5px;
+}
+
+.rrrr .del{
+  background-color: red;
+  padding: 5px 7px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.books{
+  width: 40%;
+  margin: 10px auto;
+  display: grid;
+  gap: 10px;
+}
+
+@media screen and (max-width:532px ) { 
+  .form{
+   justify-content: center;
+   align-items: center;   
+  }
+
+  #filter-and-crtnote{
+    /* width:120%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+
+
+ }
+
+ 
+
+ 
+@media screen and (max-width:344 ) { 
+   #forms{
+       margin: 40px;
+    }
+   }
 /* 
 section{
   margin-left: ;    
